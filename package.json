@@ -1,0 +1,29 @@
+{
+  "name": "@api-design/standards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@typespec/compiler": "^1.18.0",
+    "@typespec/http": "^1.18.0",
+    "@typespec/versioning": "^0.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": [
+    [
+      "./dist/index.js"
+    ]
+  ]
+}
